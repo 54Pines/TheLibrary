@@ -1362,7 +1362,7 @@ form .row:first-child .floating-label-form-group {
 ::-webkit-input-placeholder {
     color: white;
 }
-:-moz-placeholder {
+::-moz-placeholder {
     /* Firefox 18- */
     color: white;
 }
