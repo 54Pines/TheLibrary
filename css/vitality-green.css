@@ -7,6 +7,9 @@ html,
 body {
   height: 100%;
 }
+html {
+  overflow-x: hidden;
+}
 body,
 *,
 *:after,
@@ -41,7 +44,7 @@ input.form-control {
   border-radius: 0 !important;
 }
 input.form-control:focus {
-  border-color: #5CB85C;
+  border-color: cadetblue;
   box-shadow: none;
 }
 .btn,
@@ -53,8 +56,8 @@ input.form-control:focus {
 }
 .btn-primary {
   color: white;
-  background-color: #5CB85C;
-  border-color: #5CB85C;
+  background-color: cadetblue;
+  border-color: cadetblue;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -92,11 +95,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #5CB85C;
-  border-color: #5CB85C;
+  background-color: cadetblue;
+  border-color: cadetblue;
 }
 .btn-primary .badge {
-  color: #5CB85C;
+  color: cadetblue;
   background-color: white;
 }
 body {
@@ -105,7 +108,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #5CB85C;
+  color: cadetblue;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -157,7 +160,7 @@ hr.right {
   margin: 15px 0 15px auto;
 }
 hr.colored {
-  border-color: #5CB85C;
+  border-color: cadetblue;
 }
 @media (min-width: 768px) {
   hr {
@@ -172,7 +175,7 @@ hr.colored {
   }
 }
 .text-primary {
-  color: #5CB85C;
+  color: cadetblue;
 }
 .navbar-fixed-top {
   margin-bottom: 0;
@@ -183,12 +186,12 @@ hr.colored {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #5CB85C;
+  color: cadetblue;
   background-color: white;
   border-radius: 0;
 }
 .navbar-default {
-  background-color: #5CB85C;
+  background-color: cadetblue;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -490,7 +493,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #5CB85C !important;
+  background-color: cadetblue !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -581,7 +584,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #5CB85C !important;
+  background-color: cadetblue !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -693,7 +696,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #5CB85C !important;
+  background-color: cadetblue !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -822,7 +825,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: -30px;
   bottom: 0;
-  background-color: #5CB85C !important;
+  background-color: cadetblue !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -866,9 +869,9 @@ aside.cta-quote span.quote {
   transition: all 0.5s;
 }
 .portfolio-filter #filters li .filter.active {
-  background-color: #5CB85C;
+  background-color: cadetblue;
   color: white;
-  border-color: #5CB85C;
+  border-color: cadetblue;
 }
 #portfoliolist .mix {
   width: 31%;
@@ -906,7 +909,7 @@ aside.cta-quote span.quote {
   transition: all 0.5s;
 }
 #portfoliolist .mix .portfolio-wrapper .caption .caption-bg {
-  background: #5CB85C;
+  background: cadetblue;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1047,7 +1050,7 @@ aside.cta-quote span.quote {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #5CB85C;
+  color: cadetblue;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
@@ -1094,7 +1097,7 @@ footer.footer .copyright p.small {
 }
 .btn-outline-light:hover,
 .btn-outline-light:focus {
-  color: #5CB85C;
+  color: cadetblue;
   background: white;
   outline: none;
 }
@@ -1109,8 +1112,8 @@ footer.footer .copyright p.small {
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
   color: white;
-  background: #5CB85C;
-  border-color: #5CB85C;
+  background: cadetblue;
+  border-color: cadetblue;
   outline: none;
 }
 .btn {
@@ -1137,7 +1140,7 @@ footer.footer .copyright p.small {
   text-transform: none;
 }
 .btn-full-width:hover {
-  background-color: #5CB85C;
+  background-color: cadetblue;
   color: white;
 }
 .btn-full-width:focus {
@@ -1199,14 +1202,19 @@ body.vintage .testimonials .owl-controls .owl-next {
   font-size: 9rem;
 }
 
-img.main-logo {
+.navbar-brand i.fa-book {
   width: 100px;
   height: auto !important;
-  border-radius: 1000px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 3em;
 }
 @media screen and (max-width:768px) {
-  img.main-logo {
-    width: 60px;
+  .navbar-brand i.fa-book {
+    width: 80px;
+    font-size: 2em;
+
   }
 }
 
@@ -1252,6 +1260,129 @@ img.main-logo {
   mix-blend-mode: multiply;
   overflow: hidden;
 }
+
+
+.book-bg {
+    background-image: url('../img/booktexture.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    color: #333;
+    color: #ddd;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.4);
+
+}
+
+.book-bg hr {
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.4);
+}
+
+.book-bg h2 {
+  color: cadetblue;
+
+  /* text-shadow: 1px 1px 1px #333; */
+    /* WebKit (Safari/Chrome) Only */
+  /* -webkit-text-stroke: 1px #333; */
+  
+  /* If we weren't using text-shadow, we'd set a fallback color
+     and use this to set color instead
+    -webkit-text-fill-color: white; */
+  
+  color: cadetblue;
+  letter-spacing: 1px;
+}
+
+
+
+.book-bg img {
+  border: #ddd solid 1px;
+  /* box-shadow: 4px 4px 4px rgba(0,0,0, 0.3); */
+  overflow: hidden;
+  margin-bottom: 5px;
+  overflow: visible;
+  visibility: visible;
+}
+
+.book-bg:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#444;
+  opacity: 0.8;
+  z-index: 0;
+  mix-blend-mode: multiply;
+  overflow: hidden;
+}
+
+
+.contactForm {
+  border: 1px solid #ddd;
+  /* outline: 2px solid #555; */
+  margin: 0 auto;
+  padding:5%;
+  width: 95%;
+  max-width: 500px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3px;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #ddd;
+}
+
+.floating-label-form-group {
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+.contactForm .btn.btn-outline-dark {
+  color: cadetblue;
+  border-color: cadetblue;
+}
+.floating-label-form-group label,
+.floating-label-form-group input, 
+.floating-label-form-group textarea {
+  color: #ccc;
+}
+.contactForm .btn:hover {
+  background-color: cadetblue;
+  color: white;
+  border-color: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
