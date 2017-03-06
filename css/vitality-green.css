@@ -1158,7 +1158,7 @@ body.modern p.lead,
 body.modern header .brand-name,
 body.modern .portfolio-carousel .project-name,
 body.modern .testimonials .testimonial-author .name {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: "Rockwell", “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
 }
