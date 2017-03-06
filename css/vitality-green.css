@@ -1409,7 +1409,7 @@ form .row:first-child .floating-label-form-group {
   display: block;
   position: relative;
   height: 80%;
-  margin: 10% auto;
+  margin: 10vh auto;
   overflow: visible;
   visibility: visible;
 }
