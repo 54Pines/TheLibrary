@@ -45,6 +45,13 @@ $(document).ready(function() {
     $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
     });
+    // Modal Call
+    $('#event-trigger').click(function() {
+        $('.modal').addClass("show");
+    });
+    $('.modal-close').click(function() {
+        $('.modal').removeClass("show");
+    });
 
     // Owl Carousel Settings
     $(".about-carousel").owlCarousel({
