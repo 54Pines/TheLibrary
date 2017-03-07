@@ -1344,7 +1344,7 @@ form .row:first-child .floating-label-form-group {
   border-bottom: 1px solid #ddd;
   color: white;
 }
-.contactForm .btn.btn-outline-dark {
+.btn.btn-outline-dark {
   color: #57e9ed;
   border-color: #57e9ed;
 }
@@ -1353,7 +1353,7 @@ form .row:first-child .floating-label-form-group {
 .floating-label-form-group textarea {
   color: #ccc;
 }
-.contactForm .btn:hover {
+.btn:hover {
   background-color: #57e9ed;
   color: white;
   border-color: transparent;
@@ -1433,7 +1433,16 @@ form .row:first-child .floating-label-form-group {
 }
 
 
+.other-bars {
+      margin: 0 auto 4em;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
 
+.other-bars li {
+  margin: 0 auto 1em;
+}
 
 
 
