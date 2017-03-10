@@ -16,10 +16,10 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // create email body and send it	
-$to = 'abarberaus@gmail.com'; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE FORM TO SEND MAIL TO*
-$email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from the Mooseknuckle contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: Mooseknuckle@54pines.com\n"; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE MESSAGE TO BE FROM*
+$to = 'kelmanning25@gmail.com'; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE FORM TO SEND MAIL TO*
+$email_subject = "The Library Contact Form:  $name";
+$email_body = "You have received a new message from the The Library contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$headers = "From: contact@thelibraryaustin.com\n"; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE MESSAGE TO BE FROM*
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
