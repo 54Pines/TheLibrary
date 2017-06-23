@@ -1470,6 +1470,9 @@ form .row:first-child .floating-label-form-group {
 .hours{
   list-style: none;
 }
+.student{
+  max-width: 90px;
+}
 
 
 
